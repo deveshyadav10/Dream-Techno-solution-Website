@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background-color:#0d0c22;
+     cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+
+.navbar a h1{
+    font-size: 2rem;
+}
+
+#heading
+{
+    padding-top: 120px;
+    width: 50%;
+    margin-left: 350px;
+    padding-bottom: 80px;
+}
+
+#heading h1{
+    color: white;
+    font-size: 3.2rem;
+    text-shadow: 2px 2px 4px #fbf7f7;
+
+}
+
+label{
+    color: rgb(240, 234, 234);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form{
+    margin-left: 350px;
+    width: 50%;
+    font-size: 2rem;
+    padding: 33px;
+    border-radius: 12px;
+    /* box-shadow: 5px 10px #888888; */
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    margin: 5px 0px;
+    border: 2px solid black;
+    border-radius: 9px;
+    color: #117964;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(188, 184, 184);
+}
+
+textarea{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(228, 224, 224);
+}
+
+#firstname{
+    margin-right: 195px;
+}
+
+#first-name:hover{
+    border: 2px solid red;
+}
+
+#last-name:hover{
+    border: 2px solid red;
+}
+#email{
+    width: 600px;
+}
+
+#email:hover{
+    border: 2px solid red;
+}
+
+#subject{
+    width: 600px;
+}
+
+#subject:hover{
+    border: 2px solid red;
+}
+
+#message{
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+#message:hover{
+    border: 2px solid red;
+}
+
+.btn{
+    border-radius: 50px;
+    display:inline-block;
+    width: 100px;
+    height: 50px;
+    text-transform: uppercase;
+    margin: 18px 0px;
+    margin-left: 8px;
+    }
+
+  .btn:hover{
+        background-color: rgba(244, 238, 238, 0.803);
+        transform: 0.3s color ease-in-out;
+        font-weight: 600;
+    }
+
+    #bottom{
+        margin-top: 160px;
+        margin-bottom: 160px;
+    }
+
+    #bottom img{
+        border: 1px solid #BFBFBF;
+        border-radius: 12px;
+        z-index: -1;
+        box-shadow: rgba(59, 57, 57, 0.3) 0px 19px 38px, rgba(87, 86, 86, 0.22) 0px 15px 12px;
+    }
+
+    .zoom {
+        transition: transform .2s; /* Animation */
+        width: 650px;
+        height: 300px;
+        margin: 0 auto;
+      }
+      
+      .zoom:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+      
+
+    #last-item{
+        margin-top: 160px;
+        margin-bottom: 160px;
+        font-size: 1.3rem;
+    }
+
+
+
+ #last-item{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 60%;
+    margin-left: 250px;
+ }
+
+ #last-item .box{
+    display:flex;
+    flex-wrap: wrap;
+ }
+
+ .box{
+    padding-bottom: 33px;
+ }
+
+ .box img{
+    width: 33px;
+    margin-bottom: 3px;
+    
+ }
+
+
+ .box1{
+    padding:34px;
+ }
+
+ .box1:hover,.box-2:hover,.box-2:hover,.box3:hover,.box2:hover{
+    background-color:#117964;
+ }
+ .box-2{
+    /* margin-top: 44px;
+    margin-right: 25px;
+    margin-left: 25px; */
+    padding: 34px;
+    margin-top: 8px;
+ }
+
+ .box2{
+    padding:34px;
+ }
+
+ .box3{
+    padding:34px;
+    margin-top: 18px;
+ }
+
+#contactus{
+    font-size: 1.4rem;
+}
+
+.footer{
+    font-size: 1.4rem;
+}
+
+.navbar-container input[type="checkbox"]
+{
+  opacity: 0.1;
+}
+
+@media screen and (max-width: 992px) {
+    form {
+        margin: 10px;
+        width: 90%;
+      }
+      
+      #heading{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    margin: 2em auto;
+    font: 1em/1.3 Arial, Helvetica, sans-serif;
+}
+
+#last-item{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 20px;
+}
+
+.footer {
+    border-top: 1px solid #ccc;
+    margin-top: 2em;
+}
+
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    form {
+        margin: 10px;
+        width: 40%;
+      }
+
+.navbar{
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#last-item .box{
+   margin: 0;
+   padding: 0;
+  background-color: wheat;
+  text-align: left;
+  justify-content: left;
+   display: block;
+}
+
+form{
+    margin: 10px;
+    width: 80%;
+  }
+
+
+
+html{
+  font-size: 65%;
+}
+
+.navbar .menu-items li{
+  font-size: 1.6rem;
+}
+
+#bottom img{
+  margin: auto;
+  width:80%;
+}
+
+#contactus{
+height: 50vmax;
+margin: 0;
+padding: 0;
+}
+
+
+.navbar-container {
+    display: block;
+    position: relative;
+    height: 64px;
+  }
+
+  }

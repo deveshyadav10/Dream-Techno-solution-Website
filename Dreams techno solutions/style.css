@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16;
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+ .container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+
+#heading .container h1{
+    font-size:90px;
+   
+}
+
+#home .container h1{
+    font-size:90px;
+   
+}
+
+ .green{
+    margin-left:10px;
+}
+
+#heading{
+    margin-left: 60px;
+   padding-top: 180px;
+}
+
+#home .container h1{
+    font-size: 50px;
+}
+
+#home{
+    margin-top: 90px;
+margin-left: 60px;
+width: 55%;
+text-align: justify;
+padding-bottom: 50px;
+}
+
+#home .container p{
+    margin-top: 14px;
+    margin-left: 10px;
+    width: 90%;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container1{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+#home .btn{
+border-radius: 50px;
+display:inline-block;
+width: 150px;
+height: 50px;
+text-transform: uppercase;
+margin: 18px 0px;
+margin-left: 8px;
+}
+
+#contactus .contact .btn{
+    width: 165px;
+}
+
+#contactus .btn a{
+    color: black;
+    text-decoration: none;
+}
+
+.item1{
+    width: 30%;
+}
+
+
+#home .btn:hover{
+    background-color: rgba(244, 238, 238, 0.803);
+    transform: 0.3s color ease-in-out;
+    font-weight: 500;
+}
+
+#ourwork{
+    background-color: rgb(229, 223, 223);
+    height: 35%;
+    padding: 90px 0px;
+}
+
+#ourwork h2{
+    color: black;
+    font-size: 2rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#ourwork .btn{
+    border-radius: 50px;
+display:inline-block;
+width: 159px;
+height: 45px;
+text-transform: uppercase;
+margin: 18px 0px;
+background-color: black;
+color: white;
+}
+
+#ourwork a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+#ourwork .btn:hover{
+    opacity: 0.8;
+}
+
+#ourclients{
+    background-color: rgb(229, 223, 223);
+    height: 35%;
+    padding: 70px 0px;
+}
+
+#ourclients h2{
+    color: black;
+    font-size: 2rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr{
+    font-weight: bolder;
+    width: 22px;
+}
+
+#ourclients h2{
+    margin:55px 0px;
+}
+
+#ourclients img{
+    height: 160px;
+    width: 280px;
+    opacity: 0.9;
+    margin:20px 30px;
+    margin-top: 30px;
+    border-radius: 12px;
+    border:2px solid black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 30;
+}
+
+.navbar-container input[type="checkbox"]
+{
+  opacity: 0.1;
+}
+
+
+@media screen and (max-width: 992px) {
+   
+    #heading .container h1{
+        font-size: 40px;
+        margin: 0px;
+    }
+
+ .logo{
+        padding-top: 50px;
+        margin: 20px;
+        font-size: 30px;
+    }
+
+#home .container h1{
+    margin: 0px;
+    flex-direction: column;
+    width: 110px;
+    }
+ 
+    #heading{
+     font-size: 50;
+    }
+
+    #home .container{
+        width: 120%;
+    }
+
+}
